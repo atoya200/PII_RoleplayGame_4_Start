@@ -108,5 +108,5 @@ Incorporen al diagrama (dibujen en la hoja) los elementos que han agregado en lo
     
 # Anexo: Diagrama de clases
 
-![](Class-Diagram.png?raw=true "Class Diagram")
+![](Roleplay4.png?raw=true "Class Diagram")
 * _Las clases en verde se encuentran definidas en el proyecto ConsoleGame._
