@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Library\Library.csproj" />
+    <ProjectReference Include="..\..\src\ConsoleGame\ConsoleGame.csproj" />
   </ItemGroup>
 
 </Project>
