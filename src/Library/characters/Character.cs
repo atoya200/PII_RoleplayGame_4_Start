@@ -19,6 +19,18 @@ namespace RoleplayGame.Characters
         /// <summary>
         /// Nivel del vida del personaje.
         /// </summary>
+        protected int initialHealth;
+        public int InitialHealth
+        {
+            get
+            {
+                return initialHealth;
+            }
+            set
+            {
+                initialHealth = value;
+            }
+        }
         protected int health;
         public int Health 
         { 
@@ -130,7 +142,10 @@ namespace RoleplayGame.Characters
                 this.Health -= delta;
             }
         }
-
+        public void RestoreHealth()
+        {
+            this.Health = initialHealth;
+        }
         public override string ToString()
         {
             string items = "";

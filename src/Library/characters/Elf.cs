@@ -12,6 +12,7 @@ namespace RoleplayGame.Characters
             : base(name)
         {
             this.Health = 120;
+            this.InitialHealth = this.Health;
             this.AddItem(new Robes());
         }
     }

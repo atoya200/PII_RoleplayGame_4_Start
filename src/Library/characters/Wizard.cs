@@ -12,6 +12,7 @@ namespace RoleplayGame.Characters
             : base(name)
         {
             this.Health = 80;
+            this.InitialHealth = this.Health;
             this.AddItem(new Magic());
         }
     }
