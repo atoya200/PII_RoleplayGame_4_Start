@@ -1,8 +1,8 @@
 namespace RoleplayGame.Items;
 /// <summary>
-/// Long Sword. Le da ataque al personaje.
+/// Troll Mace. Objeto que le da ataque al troll.
 /// </summary>
-public class LongSword : IAttackItem
+public class TrollMace : IAttackItem
 {
     /// <summary>
     /// El poder de ataque.
@@ -12,11 +12,11 @@ public class LongSword : IAttackItem
     {
         get
         {
-            return 40;
+            return 50;
         }
     }
     public override string ToString()
         {
-            return "Long Sword";
+            return "Troll mace";
         }
 }

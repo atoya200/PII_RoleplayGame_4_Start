@@ -1,22 +1,23 @@
 namespace RoleplayGame.Items;
+
 /// <summary>
-/// Spikes. Le da ataque al personaje.
+/// Cuirass. Le da protección al personaje troll.
 /// </summary>
-public class Spikes : IAttackItem
+public class Cuirass : IDefenseItem
 {
     /// <summary>
-    /// El poder de ataque.
+    /// El poder de defensa.
     /// </summary>
     /// <value></value>
-    public int AttackPower
+    public int DefensePower
     {
         get
         {
-            return 10;
+            return 80;
         }
     }
     public override string ToString()
     {
-        return "Spikes";
+        return "Cuirass";
     }
 }
